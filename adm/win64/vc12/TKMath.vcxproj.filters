@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{86A72984-0D7A-06E8-18BC-A12E1DDA78E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\math">
+      <UniqueIdentifier>{37F0D06A-0932-0FF6-15CF-C82422BC742E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ElCLib">
+      <UniqueIdentifier>{6F949868-146A-0B83-0658-722573F8CBD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ElSLib">
+      <UniqueIdentifier>{0D3D34E2-019F-0536-00DC-415C5E1734FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BSplCLib">
+      <UniqueIdentifier>{9824C569-16D5-1279-0477-34F959DE798F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BSplSLib">
+      <UniqueIdentifier>{FEA058DD-17D9-152F-0CC3-D5EF9B65BE0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\PLib">
+      <UniqueIdentifier>{A0C558DF-1095-08C6-132A-5CF1F00FFDB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Poly">
+      <UniqueIdentifier>{D97CC628-06EB-0C40-022C-A489FB5EC7D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CSLib">
+      <UniqueIdentifier>{9034AC97-17E8-11CE-05D7-313698F76CA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Convert">
+      <UniqueIdentifier>{FE10046C-127D-1333-04DA-DD61782A2BFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Bnd">
+      <UniqueIdentifier>{ADCFD702-04D8-1872-1656-03C7460FC949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BVH">
+      <UniqueIdentifier>{6804469F-0F00-0E88-06A4-83889C7DD8CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\gp">
+      <UniqueIdentifier>{24ABB578-00E3-0DFD-197D-A696B2EFAE9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TopLoc">
+      <UniqueIdentifier>{B0BCAA73-1505-1180-0CA0-E3A0EC59E8F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Expr">
+      <UniqueIdentifier>{CE4590C3-0B76-17E6-11A1-359C219D6FFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ExprIntrp">
+      <UniqueIdentifier>{229232CA-062B-1109-0AE8-62138DF18EB0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\math\math.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_BFGS.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_BissecNewton.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_BracketMinimum.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_BracketedRoot.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_BrentMinimum.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_ComputeGaussPointsAndWeights.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_ComputeKronrodPointsAndWeights.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_Crout.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_DirectPolynomialRoots.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_EigenValuesSearcher.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_FRPR.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_Function.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_FunctionAllRoots.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_FunctionRoot.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_FunctionRoots.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_FunctionSample.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_FunctionSet.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_FunctionSetRoot.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_FunctionWithDerivative.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_Gauss.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_GaussLeastSquare.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_GaussMultipleIntegration.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_GaussSetIntegration.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_GaussSingleIntegration.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_Householder.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_IntegerVector.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_Jacobi.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_Kronrod.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_KronrodSingleIntegration.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_Matrix.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_MultipleVarFunction.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_NewtonFunctionRoot.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_NewtonFunctionSetRoot.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_NewtonMinimum.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_Powell.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_Recipes.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_SVD.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_TrigonometricFunctionRoots.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_Uzawa.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\math\math_Vector.cxx">
+      <Filter>Source files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ElCLib\ElCLib.cxx">
+      <Filter>Source files\ElCLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ElSLib\ElSLib.cxx">
+      <Filter>Source files\ElSLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BSplCLib\BSplCLib.cxx">
+      <Filter>Source files\BSplCLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BSplCLib\BSplCLib_1.cxx">
+      <Filter>Source files\BSplCLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BSplCLib\BSplCLib_2.cxx">
+      <Filter>Source files\BSplCLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BSplCLib\BSplCLib_3.cxx">
+      <Filter>Source files\BSplCLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BSplCLib\BSplCLib_BzSyntaxes.cxx">
+      <Filter>Source files\BSplCLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BSplSLib\BSplSLib.cxx">
+      <Filter>Source files\BSplSLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BSplSLib\BSplSLib_BzSyntaxes.cxx">
+      <Filter>Source files\BSplSLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PLib\PLib.cxx">
+      <Filter>Source files\PLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PLib\PLib_Base.cxx">
+      <Filter>Source files\PLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PLib\PLib_DoubleJacobiPolynomial.cxx">
+      <Filter>Source files\PLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PLib\PLib_HermitJacobi.cxx">
+      <Filter>Source files\PLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PLib\PLib_JacobiPolynomial.cxx">
+      <Filter>Source files\PLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Poly\Poly.cxx">
+      <Filter>Source files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Poly\Poly_CoherentLink.cxx">
+      <Filter>Source files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Poly\Poly_CoherentNode.cxx">
+      <Filter>Source files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Poly\Poly_CoherentTriPtr.cxx">
+      <Filter>Source files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Poly\Poly_CoherentTriangle.cxx">
+      <Filter>Source files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Poly\Poly_CoherentTriangulation.cxx">
+      <Filter>Source files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Poly\Poly_Connect.cxx">
+      <Filter>Source files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Poly\Poly_MakeLoops.cxx">
+      <Filter>Source files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Poly\Poly_Polygon2D.cxx">
+      <Filter>Source files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Poly\Poly_Polygon3D.cxx">
+      <Filter>Source files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Poly\Poly_PolygonOnTriangulation.cxx">
+      <Filter>Source files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Poly\Poly_Triangle.cxx">
+      <Filter>Source files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Poly\Poly_Triangulation.cxx">
+      <Filter>Source files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CSLib\CSLib.cxx">
+      <Filter>Source files\CSLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CSLib\CSLib_Class2d.cxx">
+      <Filter>Source files\CSLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CSLib\CSLib_NormalPolyDef.cxx">
+      <Filter>Source files\CSLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Convert\Convert_CircleToBSplineCurve.cxx">
+      <Filter>Source files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Convert\Convert_CompBezierCurves2dToBSplineCurve2d.cxx">
+      <Filter>Source files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Convert\Convert_CompBezierCurvesToBSplineCurve.cxx">
+      <Filter>Source files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Convert\Convert_CompPolynomialToPoles.cxx">
+      <Filter>Source files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Convert\Convert_ConeToBSplineSurface.cxx">
+      <Filter>Source files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Convert\Convert_ConicToBSplineCurve.cxx">
+      <Filter>Source files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Convert\Convert_CylinderToBSplineSurface.cxx">
+      <Filter>Source files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Convert\Convert_ElementarySurfaceToBSplineSurface.cxx">
+      <Filter>Source files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Convert\Convert_EllipseToBSplineCurve.cxx">
+      <Filter>Source files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Convert\Convert_GridPolynomialToPoles.cxx">
+      <Filter>Source files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Convert\Convert_HyperbolaToBSplineCurve.cxx">
+      <Filter>Source files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Convert\Convert_ParabolaToBSplineCurve.cxx">
+      <Filter>Source files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Convert\Convert_PolynomialCosAndSin.cxx">
+      <Filter>Source files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Convert\Convert_SphereToBSplineSurface.cxx">
+      <Filter>Source files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Convert\Convert_TorusToBSplineSurface.cxx">
+      <Filter>Source files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bnd\Bnd_BoundSortBox.cxx">
+      <Filter>Source files\Bnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bnd\Bnd_BoundSortBox2d.cxx">
+      <Filter>Source files\Bnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bnd\Bnd_Box.cxx">
+      <Filter>Source files\Bnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bnd\Bnd_Box2d.cxx">
+      <Filter>Source files\Bnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bnd\Bnd_Sphere.cxx">
+      <Filter>Source files\Bnd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Ax1.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Ax2.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Ax22d.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Ax2d.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Ax3.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Circ.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Circ2d.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Cone.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Cylinder.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Dir.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Dir2d.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Elips.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Elips2d.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_GTrsf.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_GTrsf2d.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Hypr.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Hypr2d.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Lin.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Lin2d.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Mat.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Mat2d.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Parab.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Parab2d.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Pln.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Pnt.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Pnt2d.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Quaternion.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Sphere.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Torus.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Trsf.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Trsf2d.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Vec.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_Vec2d.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_XY.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gp\gp_XYZ.cxx">
+      <Filter>Source files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TopLoc\TopLoc_Datum3D.cxx">
+      <Filter>Source files\TopLoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TopLoc\TopLoc_ItemLocation.cxx">
+      <Filter>Source files\TopLoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TopLoc\TopLoc_Location.cxx">
+      <Filter>Source files\TopLoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\Bnd\Bnd_Array1OfBox2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Bnd\Bnd_Array1OfBox_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Bnd\Bnd_Array1OfSphere_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Bnd\Bnd_B2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Bnd\Bnd_B2f_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Bnd\Bnd_B3d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Bnd\Bnd_B3f_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Bnd\Bnd_HArray1OfBox2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Bnd\Bnd_HArray1OfBox_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Bnd\Bnd_HArray1OfSphere_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Bnd\Bnd_SeqOfBox_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Bnd\Bnd_SequenceNodeOfSeqOfBox_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Convert\Convert_SequenceNodeOfSequenceOfArray1OfPoles_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Convert\Convert_SequenceOfArray1OfPoles_0.cxx" />
+    <ClCompile Include="..\..\..\drv\gp\gp_VectorWithNullMagnitude_0.cxx" />
+    <ClCompile Include="..\..\..\drv\math\math_Array1OfValueAndWeight_0.cxx" />
+    <ClCompile Include="..\..\..\drv\math\math_DoubleTabOfReal_0.cxx" />
+    <ClCompile Include="..\..\..\drv\math\math_NotSquare_0.cxx" />
+    <ClCompile Include="..\..\..\drv\math\math_QuickSortOfValueAndWeight_0.cxx" />
+    <ClCompile Include="..\..\..\drv\math\math_SingleTabOfInteger_0.cxx" />
+    <ClCompile Include="..\..\..\drv\math\math_SingleTabOfReal_0.cxx" />
+    <ClCompile Include="..\..\..\drv\math\math_SingularMatrix_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Poly\Poly_Array1OfTriangle_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Poly\Poly_HArray1OfTriangle_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array1OfCirc2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array1OfDir2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array1OfDir_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array1OfLin2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array1OfPnt2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array1OfPnt_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array1OfVec2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array1OfVec_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array1OfXYZ_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array1OfXY_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array2OfCirc2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array2OfDir2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array2OfDir_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array2OfLin2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array2OfPnt2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array2OfPnt_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array2OfVec2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array2OfVec_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array2OfXYZ_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_Array2OfXY_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_DataMapIteratorOfDataMapOfIntegerCirc2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_DataMapNodeOfDataMapOfIntegerCirc2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_DataMapOfIntegerCirc2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray1OfCirc2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray1OfDir2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray1OfDir_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray1OfLin2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray1OfPnt2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray1OfPnt_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray1OfVec2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray1OfVec_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray1OfXYZ_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray1OfXY_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray2OfCirc2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray2OfDir2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray2OfDir_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray2OfLin2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray2OfPnt2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray2OfPnt_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray2OfVec2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray2OfVec_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray2OfXYZ_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HArray2OfXY_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HSequenceOfDir2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HSequenceOfDir_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HSequenceOfPnt2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HSequenceOfPnt_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HSequenceOfVec2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HSequenceOfVec_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HSequenceOfXYZ_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_HSequenceOfXY_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceNodeOfSequenceOfArray1OfPnt2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceNodeOfSequenceOfDir2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceNodeOfSequenceOfDir_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceNodeOfSequenceOfPnt2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceNodeOfSequenceOfPnt_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceNodeOfSequenceOfVec2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceNodeOfSequenceOfVec_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceNodeOfSequenceOfXYZ_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceNodeOfSequenceOfXY_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceOfArray1OfPnt2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceOfDir2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceOfDir_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceOfPnt2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceOfPnt_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceOfVec2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceOfVec_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceOfXYZ_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColgp\TColgp_SequenceOfXY_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TopLoc\TopLoc_IndexedMapNodeOfIndexedMapOfLocation_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TopLoc\TopLoc_IndexedMapOfLocation_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TopLoc\TopLoc_MapIteratorOfMapOfLocation_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TopLoc\TopLoc_MapLocationHasher_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TopLoc\TopLoc_MapOfLocation_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TopLoc\TopLoc_SListNodeOfSListOfItemLocation_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TopLoc\TopLoc_SListOfItemLocation_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TopLoc\TopLoc_StdMapNodeOfMapOfLocation_0.cxx" />
+    <ClCompile Include="..\..\..\src\math\math_CompareOfValueAndWeight.cxx" />
+    <ClCompile Include="..\..\..\src\math\math_FunctionSetWithDerivatives.cxx" />
+    <ClCompile Include="..\..\..\src\math\math_IntegerRandom.cxx" />
+    <ClCompile Include="..\..\..\src\math\math_Memory.cxx" />
+    <ClCompile Include="..\..\..\src\math\math_MultipleVarFunctionWithGradient.cxx" />
+    <ClCompile Include="..\..\..\src\math\math_MultipleVarFunctionWithHessian.cxx" />
+    <ClCompile Include="..\..\..\src\math\math_RealRandom.cxx" />
+    <ClCompile Include="..\..\..\src\math\math_ValueAndWeight.cxx" />
+    <ClCompile Include="..\..\..\src\Precision\Precision.cxx" />
+  </ItemGroup>
+</Project>

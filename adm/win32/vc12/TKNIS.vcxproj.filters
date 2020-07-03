@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\NIS\NIS_Allocator.cxx" />
+    <ClCompile Include="..\..\..\src\NIS\NIS_Drawer.cxx" />
+    <ClCompile Include="..\..\..\src\NIS\NIS_DrawList.cxx" />
+    <ClCompile Include="..\..\..\src\NIS\NIS_InteractiveContext.cxx" />
+    <ClCompile Include="..\..\..\src\NIS\NIS_InteractiveObject.cxx" />
+    <ClCompile Include="..\..\..\src\NIS\NIS_ObjectsIterator.cxx" />
+    <ClCompile Include="..\..\..\src\NIS\NIS_SelectFilter.cxx" />
+    <ClCompile Include="..\..\..\src\NIS\NIS_Surface.cxx" />
+    <ClCompile Include="..\..\..\src\NIS\NIS_SurfaceDrawer.cxx" />
+    <ClCompile Include="..\..\..\src\NIS\NIS_Triangulated.cxx" />
+    <ClCompile Include="..\..\..\src\NIS\NIS_TriangulatedDrawer.cxx" />
+    <ClCompile Include="..\..\..\src\NIS\NIS_View.cxx" />
+  </ItemGroup>
+</Project>

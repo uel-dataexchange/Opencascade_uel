@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Voxel\Voxel_BoolDS.cxx" />
+    <ClCompile Include="..\..\..\src\Voxel\Voxel_BooleanOperation.cxx" />
+    <ClCompile Include="..\..\..\src\Voxel\Voxel_CollisionDetection.cxx" />
+    <ClCompile Include="..\..\..\src\Voxel\Voxel_ColorDS.cxx" />
+    <ClCompile Include="..\..\..\src\Voxel\Voxel_DS.cxx" />
+    <ClCompile Include="..\..\..\src\Voxel\Voxel_FastConverter.cxx" />
+    <ClCompile Include="..\..\..\src\Voxel\Voxel_FloatDS.cxx" />
+    <ClCompile Include="..\..\..\src\Voxel\Voxel_OctBoolDS.cxx" />
+    <ClCompile Include="..\..\..\src\Voxel\Voxel_Prs.cxx" />
+    <ClCompile Include="..\..\..\src\Voxel\Voxel_Reader.cxx" />
+    <ClCompile Include="..\..\..\src\Voxel\Voxel_ROctBoolDS.cxx" />
+    <ClCompile Include="..\..\..\src\Voxel\Voxel_Selector.cxx" />
+    <ClCompile Include="..\..\..\src\Voxel\Voxel_SplitData.cxx" />
+    <ClCompile Include="..\..\..\src\Voxel\Voxel_Writer.cxx" />
+  </ItemGroup>
+</Project>

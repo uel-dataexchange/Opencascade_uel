@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{6619192F-09CB-11A4-1879-70C75B3052AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Aspect">
+      <UniqueIdentifier>{83B705D6-1763-04AF-0C9B-7CA2C3A1DD97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\SelectBasics">
+      <UniqueIdentifier>{DB150AA4-0D9C-02C1-1775-6A2DC7E36BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Image">
+      <UniqueIdentifier>{B540AD8A-088D-181F-18DC-97A7666F565D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\WNT">
+      <UniqueIdentifier>{8F241AB8-060D-09BA-09E3-62142D1AC640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Font">
+      <UniqueIdentifier>{CDBDDCB6-1172-0F23-07D5-37A2F5AB97F7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Background.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_CircularGrid.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_GenId.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_GradientBackground.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Grid.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_RectangularGrid.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Window.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectBasics\SelectBasics.cxx">
+      <Filter>Source files\SelectBasics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectBasics\SelectBasics_EntityOwner.cxx">
+      <Filter>Source files\SelectBasics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectBasics\SelectBasics_SensitiveEntity.cxx">
+      <Filter>Source files\SelectBasics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_PixMap.cxx">
+      <Filter>Source files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\WNT\WNT_WClass.cxx">
+      <Filter>Source files\WNT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\WNT\WNT_Window.cxx">
+      <Filter>Source files\WNT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_Array1OfEdge_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_AspectFillAreaDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_AspectLineDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_AspectMarkerDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_BadAccess_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_ColorMapDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_DriverDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_DriverError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_EdgeDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_FontMapDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_FontStyleDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_GraphicDeviceDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_IdentDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_LineStyleDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_LineWidthDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_MarkerStyleDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_MarkMapDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_PixmapDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_PixmapError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_PolyStyleDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_SequenceNodeOfSequenceOfColorMapEntry_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_SequenceNodeOfSequenceOfColor_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_SequenceNodeOfSequenceOfFontMapEntry_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_SequenceNodeOfSequenceOfMarkMapEntry_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_SequenceNodeOfSequenceOfTypeMapEntry_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_SequenceNodeOfSequenceOfWidthMapEntry_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_SequenceOfColorMapEntry_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_SequenceOfColor_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_SequenceOfFontMapEntry_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_SequenceOfMarkMapEntry_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_SequenceOfTypeMapEntry_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_SequenceOfWidthMapEntry_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_TypeMapDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_UndefinedMap_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_WidthMapDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_WindowDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Aspect\Aspect_WindowError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Image\Image_ColorPixelDataMap_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Image\Image_ColorPixelMapHasher_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Image\Image_DataMapIteratorOfColorPixelDataMap_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Image\Image_DataMapIteratorOfLookupTable_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Image\Image_DataMapNodeOfColorPixelDataMap_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Image\Image_DataMapNodeOfLookupTable_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Image\Image_DColorImage_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Image\Image_DIndexedImage_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Image\Image_IndexPixelMapHasher_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Image\Image_LookupTable_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Image\Image_PixelFieldOfDColorImage_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Image\Image_PixelFieldOfDIndexedImage_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Image\Image_PixelRowOfDColorImage_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Image\Image_PixelRowOfDIndexedImage_0.cxx" />
+    <ClCompile Include="..\..\..\drv\MFT\MFT_FontManagerDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\MFT\MFT_FontManagerError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\MFT\MFT_ListOfFontHandle_0.cxx" />
+    <ClCompile Include="..\..\..\drv\MFT\MFT_SequenceNodeOfListOfFontHandle_0.cxx" />
+    <ClCompile Include="..\..\..\drv\PlotMgt\PlotMgt_HListOfMFTFonts_0.cxx" />
+    <ClCompile Include="..\..\..\drv\PlotMgt\PlotMgt_HListOfPlotterParameter_0.cxx" />
+    <ClCompile Include="..\..\..\drv\PlotMgt\PlotMgt_ListOfMFTFonts_0.cxx" />
+    <ClCompile Include="..\..\..\drv\PlotMgt\PlotMgt_ListOfPlotterParameter_0.cxx" />
+    <ClCompile Include="..\..\..\drv\PlotMgt\PlotMgt_PlotterAccessError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\PlotMgt\PlotMgt_PlotterDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\PlotMgt\PlotMgt_SequenceNodeOfListOfPlotterParameter_0.cxx" />
+    <ClCompile Include="..\..\..\drv\SelectBasics\SelectBasics_ListIteratorOfListOfBox2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\SelectBasics\SelectBasics_ListIteratorOfListOfSensitive_0.cxx" />
+    <ClCompile Include="..\..\..\drv\SelectBasics\SelectBasics_ListNodeOfListOfBox2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\SelectBasics\SelectBasics_ListNodeOfListOfSensitive_0.cxx" />
+    <ClCompile Include="..\..\..\drv\SelectBasics\SelectBasics_ListOfBox2d_0.cxx" />
+    <ClCompile Include="..\..\..\drv\SelectBasics\SelectBasics_ListOfSensitive_0.cxx" />
+    <ClCompile Include="..\..\..\drv\SelectBasics\SelectBasics_SequenceNodeOfSequenceOfOwner_0.cxx" />
+    <ClCompile Include="..\..\..\drv\SelectBasics\SelectBasics_SequenceOfOwner_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColQuantity\TColQuantity_Array1OfLength_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColQuantity\TColQuantity_Array2OfLength_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColQuantity\TColQuantity_HArray1OfLength_0.cxx" />
+    <ClCompile Include="..\..\..\drv\TColQuantity\TColQuantity_HArray2OfLength_0.cxx" />
+    <ClCompile Include="..\..\..\drv\Viewer\Viewer_BadValue_0.cxx" />
+    <ClCompile Include="..\..\..\drv\WNT\WNT_ClassDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\WNT\WNT_ColorTable_0.cxx" />
+    <ClCompile Include="..\..\..\drv\WNT\WNT_FontMapEntryDefinitionError_0.cxx" />
+    <ClCompile Include="..\..\..\drv\WNT\WNT_FontTable_0.cxx" />
+    <ClCompile Include="..\..\..\drv\WNT\WNT_HColorTable_0.cxx" />
+    <ClCompile Include="..\..\..\drv\WNT\WNT_HFontTable_0.cxx" />
+    <ClCompile Include="..\..\..\drv\WNT\WNT_HListOfMFTFonts_0.cxx" />
+    <ClCompile Include="..\..\..\drv\WNT\WNT_ListOfMFTFonts_0.cxx" />
+    <ClCompile Include="..\..\..\drv\WNT\WNT_SequenceNodeOfSequenceOfImage_0.cxx" />
+    <ClCompile Include="..\..\..\drv\WNT\WNT_SequenceOfImage_0.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_AidaAlienData.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_AidaAlienImage.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_AlienImage.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_AlienImageData.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_AlienUserImage.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_BMPAlienData.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_BMPAlienImage.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_BMPHeader.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_EuclidAlienData.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_EuclidAlienImage.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_GIFAlienData.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_GIFAlienImage.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_GIFLZWDict.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_MemoryOperations.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_SGIRGBAlienData.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_SGIRGBAlienImage.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_SGIRGBFileHeader.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_SunRFAlienData.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_SunRFAlienImage.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_SUNRFFileHeader.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_X11XColor.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_X11XWDAlienData.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_X11XWDFileHeader.cxx" />
+    <ClCompile Include="..\..\..\src\AlienImage\AlienImage_XAlienImage.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_AspectFillArea.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_AspectLine.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_AspectMarker.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_CLayer2d.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_ColorCubeColorMap.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_ColorMap.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_ColorMapEntry.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_ColorPixel.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_ColorRampColorMap.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_ColorScale.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Driver.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Edge.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_FontMap.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_FontMapEntry.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_FontStyle.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_FStream.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_GenericColorMap.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_GraphicDevice.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_GraphicDriver.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Handle.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_IFStream.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_IndexPixel.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_LineStyle.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_MarkerStyle.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_MarkMap.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_MarkMapEntry.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Pixel.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_PixMap.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_RGBPixel.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_TypeMap.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_TypeMapEntry.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_WidthMap.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_WidthMapEntry.cxx" />
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_WindowDriver.cxx" />
+    <ClCompile Include="..\..\..\src\CGM\cgmobin.c" />
+    <ClCompile Include="..\..\..\src\CGM\cgmochar.c" />
+    <ClCompile Include="..\..\..\src\CGM\cgmotext.c" />
+    <ClCompile Include="..\..\..\src\CGM\CGM_Driver.cxx" />
+    <ClCompile Include="..\..\..\src\CGM\Gestfic.cxx" />
+    <ClCompile Include="..\..\..\src\Image\Image.cxx" />
+    <ClCompile Include="..\..\..\src\Image\Image_AveragePixelInterpolation.cxx" />
+    <ClCompile Include="..\..\..\src\Image\Image_BalancedPixelInterpolation.cxx" />
+    <ClCompile Include="..\..\..\src\Image\Image_BilinearPixelInterpolation.cxx" />
+    <ClCompile Include="..\..\..\src\Image\Image_ColorImage.cxx" />
+    <ClCompile Include="..\..\..\src\Image\Image_Convertor.cxx" />
+    <ClCompile Include="..\..\..\src\Image\Image_Image.cxx" />
+    <ClCompile Include="..\..\..\src\Image\Image_PixelAddress.cxx" />
+    <ClCompile Include="..\..\..\src\Image\Image_PixelInterpolation.cxx" />
+    <ClCompile Include="..\..\..\src\Image\Image_PlanarPixelInterpolation.cxx" />
+    <ClCompile Include="..\..\..\src\Image\Image_PseudoColorImage.cxx" />
+    <ClCompile Include="..\..\..\src\InterfaceGraphic\InterfaceGraphic_cPrintf.cxx" />
+    <ClCompile Include="..\..\..\src\InterfaceGraphic\InterfaceGraphic_Palette.c" />
+    <ClCompile Include="..\..\..\src\MFT\MFT.cxx" />
+    <ClCompile Include="..\..\..\src\MFT\MFT_CommandDescriptor.cxx" />
+    <ClCompile Include="..\..\..\src\MFT\MFT_FileRecord.cxx" />
+    <ClCompile Include="..\..\..\src\MFT\MFT_FontManager.cxx" />
+    <ClCompile Include="..\..\..\src\MFT\MFT_TextManager.cxx" />
+    <ClCompile Include="..\..\..\src\PlotMgt\PlotMgt.cxx" />
+    <ClCompile Include="..\..\..\src\PlotMgt\PlotMgt_fillpolyarc.cxx" />
+    <ClCompile Include="..\..\..\src\PlotMgt\PlotMgt_fillpolygon.cxx" />
+    <ClCompile Include="..\..\..\src\PlotMgt\PlotMgt_ImageDriver.cxx" />
+    <ClCompile Include="..\..\..\src\PlotMgt\PlotMgt_Plotter.cxx" />
+    <ClCompile Include="..\..\..\src\PlotMgt\PlotMgt_PlotterDriver.cxx" />
+    <ClCompile Include="..\..\..\src\PlotMgt\PlotMgt_PlotterParameter.cxx" />
+    <ClCompile Include="..\..\..\src\PlotMgt\PlotMgt_PlotterTools.cxx" />
+    <ClCompile Include="..\..\..\src\PlotMgt\PlotMgt_Plotter_1.cxx" />
+    <ClCompile Include="..\..\..\src\PlotMgt\PlotMgt_Plotter_2.cxx" />
+    <ClCompile Include="..\..\..\src\PlotMgt\PlotMgt_TextManager.cxx" />
+    <ClCompile Include="..\..\..\src\PS\PS_Driver.cxx" />
+    <ClCompile Include="..\..\..\src\SelectBasics\SelectBasics_BasicTool.cxx" />
+    <ClCompile Include="..\..\..\src\SelectBasics\SelectBasics_SortAlgo.cxx" />
+    <ClCompile Include="..\..\..\src\Viewer\Viewer_View.cxx" />
+    <ClCompile Include="..\..\..\src\Viewer\Viewer_Viewer.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\EHDC.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\W32_Allocator.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\W95_Allocator.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_Allocator.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_ColorRef.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_DDriver.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_Dword.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_FontMapEntry.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_GraphicDevice.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_Icon.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_IconBox.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_IconBox_1.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_Image.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_ImageManager.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_ImageProcessor.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_LogFont.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_Long.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_MFTDraw.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_PixMap.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_TextManager.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_Uint.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_WDriver.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_WindowData.cxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_WndProc.cxx" />
+  </ItemGroup>
+</Project>
