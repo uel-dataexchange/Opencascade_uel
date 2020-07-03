@@ -1,0 +1,2 @@
+# Opencascade_uel
+CADmeisterのSTEP変換ツールが使われているOpen cascadeモジュール
